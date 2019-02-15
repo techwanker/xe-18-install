@@ -1,0 +1,12 @@
+
+## Editor backup and swap files
+*~
+.\#*
+\#**\#
+.*.sw[op]
+.sw[op]
+
+## sqlplus
+.lst
+afiedt.buf
+
