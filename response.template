@@ -1,0 +1,19 @@
+^apex_install_dir^  # Enter location to store configuration data   
+XE                  # Enter the name of the database server : centora1 
+^xe_listener_port^  # Enter the database listen port [1521]     
+1                   # Enter 1 to specify the database service name  
+XEPDB1              # Enter the database service name                                    : XEPDB1 
+1                   # Enter 1 if you want to verify/install Oracle REST Data Services schema : 1
+^apex_password^     # Enter the database password for ORDS_PUBLIC_USER                   : oracle123
+^apex_password^     # Enter the database password for SYS AS SYSDBA                          : oracle123
+ORDS_DATA           # Enter the default tablespace for ORDS_METADATA [SYSAUX]            : ORDS_DATA
+TEMP                # Enter the temporary tablespace for ORDS_METADATA [TEMP]               : accept default
+ORDS_DATA           # Enter the default tablespace for ORDS_PUBLIC_USER [SYSAUX]         : ORDS_DATA
+                    # Enter the temporary tablespace for ORDS_PUBLIC_USER [TEMP]            : accept default
+1                   # If using Oracle Application Express or migrating from mod_plsql     : 1
+                    # Enter the PL/SQL Gateway database user name [APEX_PUBLIC_USER]     : accept default
+^apex_password^     # Enter the database password for APEX_PUBLIC_USER                   : oracle123
+1                   # Enter 1 to specify passwords for APEX RESTful Services database users : 1
+^apex_password^     # Enter the database password for APEX_LISTENER                     : oracle123
+^apex_password^     # Enter the database password for APEX_REST_PUBLIC_USER             : oracle123
+

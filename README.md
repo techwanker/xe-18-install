@@ -22,4 +22,10 @@ edit configure.properties
 * Set container name to the oracle pluggable database container in which apex is to be installed
 
 As a user who can run sudo
+#### Install
 ./install_ape__18
+
+####
+change password 
+. install_apex_18
+change_apex_pwd
