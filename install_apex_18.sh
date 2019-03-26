@@ -174,10 +174,10 @@ echo "* install_apex          "
 echo "* change_apex_pwd       "
 echo "************************"
 
-#change_apex_pwd
+change_apex_pwd
 #unlock_apex
 #install_ords
 #create_ords_data
 #create_response_file
 #install_ords
-apex_rest_config
+#apex_rest_config
